@@ -4,13 +4,30 @@ body {
 header {
 	font-size: 45px; font-family: 'Baloo Tammudu', cursive;
 	background-color: #d990ff;
+	margin-bottom: -20px;
+	text-align: center;
 }
 
 p {
-	font-size: 20px;
-	border-color: white;
+	font-size: 30px;
+	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+		margin-bottom: -10px;
+		text-align: center;
+
+}
+h1 {
+	background-color: pink;
+padding-top: 20px;
+	padding-bottom: 20px;
+	border-left: 0px;
+	text-align: center;
 }
 nav {
 	font-size: 20px;
 }
-ul {}
+ul {
+
+}
+img {image-position: center;}
