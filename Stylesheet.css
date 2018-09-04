@@ -3,6 +3,7 @@ body {
 }
 header {
 	font-size: 45px; font-family: 'Baloo Tammudu', cursive;
+	background-color: #d990ff;
 }
 
 p {
@@ -11,3 +12,4 @@ p {
 nav {
 	font-size: 20px;
 }
+ul {}
