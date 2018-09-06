@@ -1,0 +1,63 @@
+body {
+  background-color: #ddd;
+  margin: 0px
+}
+header {
+  margin: auto;
+  position: relative;
+  width: 60%;
+  height: 150px;
+  background-color: cyan;
+}
+
+nav {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 30%;
+  height: 50px;
+  background-color: yellow;
+}
+
+.links {
+  width: 30%;
+  margin-left: 2.5%;
+  height: 80%;
+  float: left;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding-top: 10%;
+  font-size: 1vw;
+}
+
+#logo {
+  position: absolute;
+  left: 50px;
+  top: 25px;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+#container {
+  margin: auto;
+  position: relative;
+  width: 60%;
+  height: 800px;
+  background-color: yellow;
+}
+.fullwidth {
+  width: 90%
+  margin: auto;
+  height: 300px;
+  background-color: white;
+}
+
+.column {
+  width: 30%;
+  height: 400px;
+  float: left;
+  margin-left: 2.5%;
+  background-color: black;
+}
