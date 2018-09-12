@@ -1,6 +1,7 @@
 body {
   background-color: #ddd;
   margin: 0px
+  
 }
 header {
   margin: auto;
@@ -24,11 +25,16 @@ nav {
   margin-left: 2.5%;
   height: 80%;
   float: left;
-  background-color: blue;
+  background-color: purple;
   color: white;
   text-align: center;
   padding-top: 10%;
   font-size: 1vw;
+  -webkit-transition: background-color: 0.5s, margin-top 0.5s; /* Safari */
+  transition: background-color: 0.5s, margin-top 0.5s;
+}
+.links:hover {
+  background-color: pink;
 }
 
 #logo {
@@ -37,7 +43,11 @@ nav {
   top: 25px;
   height: 100px;
   width: 100px;
-  background-color: red;
+  background-color: blue;
+  animation-name: rotate;
+  animation-duration: 4s;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s;
 }
 
 #container {
@@ -53,11 +63,33 @@ nav {
   height: 300px;
   background-color: white;
 }
-
 .column {
   width: 30%;
   height: 400px;
   float: left;
   margin-left: 2.5%;
-  background-color: black;
+  background-color: pink;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color:blue; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:blue; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:blue; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:blue; left:0px; top:0px;}
+}
+
+
+@-webkit-keyframes rotate {
+from { webkit-transform: skewY(0deg);}
+to { webkit-transform: skewY(360deg);}
 }
